@@ -1,15 +1,17 @@
 {
-    "name": "displaymode",
-    "title": "Display Mode",
-    "description": "Hide all those pesky display elements you don't need for table gaming. Toggle visibility by clicking the Anvil in the topright corner",
-    "version": "0.5",
-    "author": "Felix#6196",
+    "id": "displaymode-logless",
+    "title": "Display Mode Logoless",
+    "description": "Hide all those pesky display elements you don't need for table gaming, including the logo. Turn off elements by clicking the anvil in the upper left corner. Refresh the page to bring elements back.",
+    "version": "0.6",
+    "author": "mlev",
     "scripts": ["./displaymode.js"],
     "styles": [],
     "packs": [],
-    "url": "https://github.com/syl3r86/displaymode",
+    "url": "https://github.com/mike-levenick/displaymode",
     "manifest": "https://raw.githubusercontent.com/syl3r86/displaymode/master/module.json",
-    "download": "https://github.com/syl3r86/displaymode/archive/master.zip",
-    "minimumCoreVersion": "0.5.5",
-    "compatibleCoreVersion": "0.6.1"
+    "download": "https://github.com/mike-levenick/displaymode/archive/master.zip",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10"
+    }
 }
